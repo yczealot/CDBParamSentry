@@ -1,3 +1,5 @@
+# author: cheng jiangdong
+
 import configparser  # 导入configparser模块，用于解析INI文件
 import subprocess  # 导入subprocess模块，用于执行系统命令
 import mysql.connector  # 导入mysql.connector模块，用于连接MySQL数据库
@@ -153,4 +155,3 @@ if __name__ == "__main__":
     results = check_ini_against_system(ini_path, mountdir, isall)
     # 打印检查结果
     print_results(results, separator_length)
-
